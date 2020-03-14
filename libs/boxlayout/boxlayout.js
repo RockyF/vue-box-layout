@@ -2785,7 +2785,7 @@ export var boxlayout;
             _this.optionContainer.style.cursor = "pointer";
             _this.optionContainer.style.margin = "6px";
             _this.optionContainer.title = "选项卡菜单";
-            _this.appendContainer.appendChild(_this.optionContainer);
+            //_this.appendContainer.appendChild(_this.optionContainer);
             _this.optionContainer.addEventListener("click", _this.optionEventHandle);
             return _this;
         }
